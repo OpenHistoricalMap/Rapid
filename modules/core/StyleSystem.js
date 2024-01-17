@@ -143,8 +143,8 @@ export class StyleSystem extends AbstractSystem {
         stroke: { width: 5, color: 0x77dddd }
       },
       stream_intermittent: {
-        casing: { width: 7, color: 0x444444, cap: PIXI.LINE_CAP.BUTT },
-        stroke: { width: 5, color: 0x77dddd, dash: [7, 3], cap: PIXI.LINE_CAP.BUTT, }
+        fill:   { width: 2, color: 0x77dddd, alpha: 0.3},
+        stroke: { width: 5, color: 0x77dddd, dash: [7, 3], cap: PIXI.LINE_CAP.BUTT}
       },
       ridge: {
         stroke: { width: 2, color: 0x8cd05f}  // rgb(140, 208, 95)
